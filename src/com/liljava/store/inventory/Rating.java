@@ -17,14 +17,4 @@ public class Rating {
 		
 		return generator.nextInt(11);
 	}
-	
-	public static void main(String[] args){
-		
-		System.out.println(Toothpick_Rating.setRating());
-		System.out.println(Cottonball_Rating.setRating());
-		System.out.println(Pencil_Rating.setRating());
-		System.out.println(Pen_Rating.setRating());
-		System.out.println(Toothbrush_Rating.setRating());
-	}
-	
 }
