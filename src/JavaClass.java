@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.io.IOException;
 
 
 public class JavaClass {
@@ -8,12 +8,17 @@ public class JavaClass {
 	
 	public static void main (String[] args){
 		
-		System.in.read();
+		try {
+			System.in.read();
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
 		
 		
 	
 	
-	if(System.in.equals(test)){
+	if(System.in.equals("test")){
 		System.out.println("Hey");
 	}
 	System.out.println("NO");
